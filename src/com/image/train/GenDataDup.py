@@ -91,6 +91,7 @@ def main():
 
     print ("\n\ntraining complete !!\n")
 
+
     np.savetxt("classifications.txt", npaClassifications)  # write flattened images to file
     cv2.destroyAllWindows()  # remove windows from memory
 
